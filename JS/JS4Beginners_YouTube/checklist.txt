@@ -1,0 +1,145 @@
+PART 1: BASIC JAVASCRIPT
+⌨️ (0:01:24) 1. Running JavaScript
+        https://scrimba.com
+        https://codepen.io/
+⌨️ (0:04:23) 2. Comment Your JavaScript Code
+        //                      inline 
+        /* **many lines** */    muiltiply lines
+⌨️ (0:05:56) 3. Declare JavaScript Variables
+        var varname = xxx
+        let varname = xxx (more later)
+        const constname = xxx (more later)
+⌨️ (0:06:15) 4. Storing Values with the Assignment Operator
+
+⌨️ (0:11:31) 5. Initializing Variables with the Assignment Operator
+⌨️ (0:11:58) 6. Understanding Uninitialized Variables
+⌨️ (0:12:40) 7. Understanding Case Sensitivity in Variables
+⌨️ (0:14:05) 8. Add Two Numbers with JavaScript
+⌨️ (0:14:34) 9. Subtract One Number from Another with JavaScript
+⌨️ (0:14:52) 10. Multiply Two Numbers with JavaScript
+⌨️ (0:15:12) 11. Divide One Number by Another with JavaScript
+⌨️ (0:15:30) 12. Increment a Number with JavaScript
+⌨️ (0:15:58) 13. Decrement a Number with JavaScript
+⌨️ (0:16:22) 14. Create Decimal Numbers with JavaScript
+⌨️ (0:16:48) 15. Multiply Two Decimals with JavaScript
+⌨️ (0:17:18) 16. Divide One Decimal by Another with JavaScript
+⌨️ (0:17:33) 17. Finding a Remainder in JavaScript
+⌨️ (0:18:22) 18. Compound Assignment With Augmented Addition
+⌨️ (0:19:22) 19. Compound Assignment With Augmented Subtraction
+⌨️ (0:20:18) 20. Compound Assignment With Augmented Multiplication
+⌨️ (0:20:51) 21. Compound Assignment With Augmented Division
+⌨️ (0:21:19) 22. Declare String Variables
+⌨️ (0:22:01) 23. Escaping Literal Quotes in Strings
+⌨️ (0:23:44) 24. Quoting Strings with Single Quotes
+⌨️ (0:25:18) 25. Escape Sequences in Strings
+⌨️ (0:26:46) 26. Concatenating Strings with Plus Operator
+⌨️ (0:27:49) 27. Concatenating Strings with the Plus Equals Operator
+⌨️ (0:29:01) 28. Constructing Strings with Variables
+⌨️ (0:30:14) 29. Appending Variables to Strings
+⌨️ (0:31:11) 30. Find the Length of a String
+⌨️ (0:32:01) 31. Use Bracket Notation to Find the First Character in a String
+⌨️ (0:33:27) 32. Understand String Immutability
+⌨️ (0:34:23) 33. Use Bracket Notation to Find the Nth Character in a String
+⌨️ (0:34:51) 34. Use Bracket Notation to Find the Last Character in a String
+⌨️ (0:35:48) 35. Use Bracket Notation to Find the Nth-to-Last Character in a
+⌨️ (0:36:28) 36. Word Blanks
+⌨️ (0:40:44) 37. Store Multiple Values in one Variable using JavaScript Arrays
+⌨️ (0:41:43) 38. Nest one Array within Another Array
+⌨️ (0:42:33) 39. Access Array Data with Indexes
+⌨️ (0:43:34) 40. Modify Array Data With Indexes
+⌨️ (0:44:48) 41. Access Multi-Dimensional Arrays With Indexes
+⌨️ (0:46:30) 42. Manipulate Arrays With push()
+⌨️ (0:47:29) 43. Manipulate Arrays With pop()
+⌨️ (0:48:33) 44. Manipulate Arrays With shift()
+⌨️ (0:49:23) 45. Manipulate Arrays With unshift()
+⌨️ (0:50:36) 46. Shopping List
+⌨️ (0:51:41) 47. Write Reusable JavaScript with Functions
+⌨️ (0:53:41) 48. Passing Values to Functions with Arguments
+⌨️ (0:55:43) 49. Global Scope and Functions
+⌨️ (0:59:31) 50. Local Scope and Functions
+⌨️ (1:00:46) 51. Global vs. Local Scope in Functions
+⌨️ (1:02:40) 52. Return a Value from a Function with Return
+⌨️ (1:03:55) 53. Understanding Undefined Value returned from a Function
+⌨️ (1:04:52) 54. Assignment with a Returned Value
+⌨️ (1:05:52) 55. Stand in Line
+⌨️ (1:08:41) 56. Understanding Boolean Values
+⌨️ (1:09:24) 57. Use Conditional Logic with If Statements
+⌨️ (1:11:51) 58. Comparison with the Equality Operator
+⌨️ (1:13:18) 59. Comparison with the Strict Equality Operator
+⌨️ (1:14:43) 60. Practice comparing different values
+⌨️ (1:15:38) 61. Comparison with the Inequality Operator
+⌨️ (1:16:20) 62. Comparison with the Strict Inequality Operator
+⌨️ (1:17:05) 63. Comparison with the Greater Than Operator
+⌨️ (1:17:39) 64. Comparison with the Greater Than Or Equal To Operator
+⌨️ (1:18:09) 65. Comparison with the Less Than Operator
+⌨️ (1:18:44) 66. Comparison with the Less Than Or Equal To Operator
+⌨️ (1:19:17) 67. Comparisons with the Logical And Operator
+⌨️ (1:20:41) 68. Comparisons with the Logical Or Operator
+⌨️ (1:21:37) 69. Introducing Else Statements
+⌨️ (1:22:27) 70. Introducing Else If Statements
+⌨️ (1:23:30) 71. Logical Order in If Else Statements
+⌨️ (1:24:45) 72. Chaining If Else Statements
+⌨️ (1:27:45) 73. Golf Code
+⌨️ (1:32:15) 74. Selecting from Many Options with Switch Statements
+⌨️ (1:35:46) 75. Adding a Default Option in Switch Statements
+⌨️ (1:37:23) 76. Multiple Identical Options in Switch Statements
+⌨️ (1:39:20) 77. Replacing If Else Chains with Switch
+⌨️ (1:41:11) 78. Returning Boolean Values from Functions
+⌨️ (1:42:20) 79. Return Early Pattern for Functions
+⌨️ (1:43:38) 80. Counting Cards
+⌨️ (1:49:11) 81. Build JavaScript Objects
+⌨️ (1:50:46) 82. Accessing Object Properties with Dot Notation
+⌨️ (1:51:33) 83. Accessing Object Properties with Bracket Notation
+⌨️ (1:52:47) 84. Accessing Object Properties with Variables
+⌨️ (1:53:34) 85. Updating Object Properties
+⌨️ (1:54:30) 86. Add New Properties to a JavaScript Object
+⌨️ (1:55:19) 87. Delete Properties from a JavaScript Object
+⌨️ (1:55:54) 88. Using Objects for Lookups
+⌨️ (1:57:43) 89. Testing Objects for Properties
+⌨️ (1:59:15) 90. Manipulating Complex Objects
+⌨️ (2:01:00) 91. Accessing Nested Objects
+⌨️ (2:01:53) 92. Accessing Nested Arrays
+⌨️ (2:03:06) 93. Record Collection
+⌨️ (2:10:15) 94. Iterate with JavaScript While Loops
+⌨️ (2:11:35) 95. Iterate with JavaScript For Loops
+⌨️ (2:13:56) 96. Iterate Odd Numbers With a For Loop
+⌨️ (2:15:28) 97. Count Backwards With a For Loop
+⌨️ (2:17:08) 98. Iterate Through an Array with a For Loop
+⌨️ (2:19:43) 99. Nesting For Loops
+⌨️ (2:22:45) 100. Iterate with JavaScript Do...While Loops
+⌨️ (2:24:12) 101. Profile Lookup
+⌨️ (2:28:18) 102. Generate Random Fractions with JavaScript
+⌨️ (2:28:54) 103. Generate Random Whole Numbers with JavaScript
+⌨️ (2:30:21) 104. Generate Random Whole Numbers within a Range
+⌨️ (2:31:46) 105. Use the parseInt Function
+⌨️ (2:32:36) 106. Use the parseInt Function with a Radix
+⌨️ (2:33:29) 107. Use the Conditional (Ternary) Operator
+⌨️ (2:34:57) 108. Use Multiple Conditional (Ternary) Operators
+
+PART 2: ES6
+⌨️ (2:36:57) 109. Explore Differences Between the var and let Keywords
+⌨️ (2:39:02) 110. Compare Scopes of the var and let Keywords
+⌨️ (2:41:32) 111. Declare a Read-Only Variable with the const Keyword
+⌨️ (2:43:40) 112. Mutate an Array Declared with const
+⌨️ (2:44:52) 113. Prevent Object Mutation
+⌨️ (2:47:17) 114. Use Arrow Functions to Write Concise Anonymous Functions
+⌨️ (2:28:24) 115. Write Arrow Functions with Parameters
+⌨️ (2:49:27) 116. Write Higher Order Arrow Functions
+⌨️ (2:53:04) 117. Set Default Parameters for Your Functions
+⌨️ (2:54:00) 118. Use the Rest Operator with Function Parameters
+⌨️ (2:55:31) 119. Use the Spread Operator to Evaluate Arrays In-Place
+⌨️ (2:57:18) 120. Use Destructuring Assignment to Assign Variables from Objects
+⌨️ (3:00:18) 121. Use Destructuring Assignment to Assign Variables from Nested Objects
+⌨️ (3:01:55) 122. Use Destructuring Assignment to Assign Variables from Arrays
+⌨️ (3:03:40) 123. Use Destructuring Assignment with the Rest Operator to Reassign Array
+⌨️ (3:05:05) 124. Use Destructuring Assignment to Pass an Object as a Function's
+⌨️ (3:06:39) 125. Create Strings using Template Literals
+⌨️ (3:10:43) 126. Write Concise Object Literal Declarations Using Simple Fields
+⌨️ (3:12:24) 127. Write Concise Declarative Functions with ES6
+⌨️ (3:12:56) 128. Use class Syntax to Define a Constructor Function
+⌨️ (3:15:11) 129. Use getters and setters to Control Access to an Object
+⌨️ (3:20:25) 130. Understand the Differences Between import and require
+⌨️ (3:22:33) 131. Use export to Reuse a Code Block
+⌨️ (3:23:40) 132. Use * to Import Everything from a File
+⌨️ (3:24:50) 133. Create an Export Fallback with export default
+⌨️ (3:25:26) 134. Import a Default Export﻿
