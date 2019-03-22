@@ -15,5 +15,4 @@ YG5H2-ANZ0H-M8ERY-TXZZZ-YKRV8
 - install
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`or `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 - set as default shell(a reboot is needed)
-`sudo chsh -s /usr/bin/zsh root`
-
+`usermod -s /usr/bin/zsh YOURUSERNAME`
