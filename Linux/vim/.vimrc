@@ -133,7 +133,6 @@ call vundle#begin()
 
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'tomasr/molokai'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'nathanaelkane/vim-indent-guides'
@@ -142,6 +141,7 @@ Plugin 'kshenoy/vim-signature'
 Plugin 'vim-scripts/BOOKMARKS--Mark-and-Highlight-Full-Lines'
 Plugin 'majutsushi/tagbar'
 Plugin 'vim-scripts/indexer.tar.gz'
+Plugin 'morhetz/gruvbox'
 Plugin 'vim-scripts/DfrankUtil'
 Plugin 'vim-scripts/vimprj'
 Plugin 'dyng/ctrlsf.vim'
@@ -166,7 +166,7 @@ filetype plugin indent on
 
 " 配色方案
 set background=light
-colorscheme molokai
+colorscheme gruvbox
 
 " >>
 " 营造专注气氛

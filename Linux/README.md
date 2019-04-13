@@ -15,10 +15,17 @@ YG5H2-ANZ0H-M8ERY-TXZZZ-YKRV8
 - install
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`or `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 - set as default shell(a reboot is needed)
-<<<<<<< HEAD
 `usermod -s /usr/bin/zsh YOURUSERNAME`
-=======
 `sudo chsh`
 `sudo usermod -s /usr/bin/zsh USERNAME`
 
->>>>>>> 57f0223984a44d0c631f3f9bd184b84eb2791d16
+## combine video together using ffmpeg
+1. 非MPEG格式(H.264, Divx, XviD, MPEG4, MPEG2, AAC, MP2...)
+先包装进ts容器再合并，例如：
+'''
+ffmpeg -i CD-1.mp4  -c copy -bsf:v h264_mp4toannexb -f mpegts input1.ts                                   
+ffmpeg -i CD-2.mp4  -c copy -bsf:v h264_mp4toannexb -f mpegts input2.ts
+ffmpeg -i "concat:input1.ts|input2.ts" -c copy -bsf:a aac_adtstoasc -movflags +faststart output.mp4
+'''
+2. MPEG格式，使用ffmpeg concat协议
+`ffmpeg -i "concat:file1.mpg|file2.mpg|file3.mpg" -c copy output.mpg`
