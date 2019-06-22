@@ -2,7 +2,7 @@
 ## First time add local repo to github:
 1. Add your ssh key(`id_rsa.pub`) or GPG key to github.com 
     in your account setting:
-    1. Create ssh-key: `ssh-keygen -t rsa -c "youremail.com"`
+    1. Create ssh-key: `ssh-keygen -C "youremail.com"`
     2. Copy `id_rsa.pub` and add that in your account setting
     3. Add private key to ssh: `ssh-add id_rsa` 
     4. You can use `ssh -T git@github.com` to check this binding.
