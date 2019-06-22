@@ -31,8 +31,6 @@ ffmpeg -i "concat:input1.ts|input2.ts" -c copy -bsf:a aac_adtstoasc -movflags +f
 `ffmpeg -i "concat:file1.mpg|file2.mpg|file3.mpg" -c copy output.mpg`
 
 ## Mount disk on startup with certain permission on certain user
-`sudo vim /etc/fstab` add:
-`/device /mountpoint deviceFileFormat umask=filePermissons,gid=ownerGroupID,uid=ownerID`
-Check gid&uid: `cat /etc/passwd`
-It should lool like this:
-`Username:passwd:uid:gid:comment:$HOME:default shell`
+1. Add`/device /mountpoint deviceFileFormat umask=filePermissons,gid=ownerGroupID,uid=ownerID` in /etc/fstab
+2. Check gid&uid: `cat /etc/passwd`:
+"Username:passwd:uid:gid:comment:$HOME:default shell"
