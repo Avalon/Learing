@@ -36,3 +36,4 @@ ffmpeg -i "concat:input1.ts|input2.ts" -c copy -bsf:a aac_adtstoasc -movflags +f
 "Username:passwd:uid:gid:comment:$HOME:default shell"
 
 ## Arch linux config (中文输入法，常用软件etc)
+https://www.cnblogs.com/haohao77/p/9034499.html
