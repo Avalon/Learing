@@ -34,3 +34,5 @@ ffmpeg -i "concat:input1.ts|input2.ts" -c copy -bsf:a aac_adtstoasc -movflags +f
 1. Add`/device /mountpoint deviceFileFormat umask=filePermissons,gid=ownerGroupID,uid=ownerID` in /etc/fstab
 2. Check gid&uid: `cat /etc/passwd`:
 "Username:passwd:uid:gid:comment:$HOME:default shell"
+
+## Arch linux config (中文输入法，常用软件etc)
